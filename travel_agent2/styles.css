@@ -116,7 +116,7 @@ button {
   text-align: center;
   gap: 5px;
 }
-i {
+.fa-regular {
   width: 30px;
   height: 30px;
   font-size: 15px;
