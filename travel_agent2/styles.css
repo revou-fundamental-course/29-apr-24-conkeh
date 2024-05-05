@@ -116,6 +116,17 @@ button {
   text-align: center;
   gap: 5px;
 }
+i {
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 50%;
+  padding-top: 6px;
+  background-color: rgb(238, 224, 224);
+}
+.city {
+  padding-top: 30px;
+}
 .container-argument {
   width: 70%;
   margin: auto;
