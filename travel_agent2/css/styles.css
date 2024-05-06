@@ -129,6 +129,7 @@ button {
   height: 200px;
   border: 1px solid;
   margin: auto;
+  margin-bottom: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
