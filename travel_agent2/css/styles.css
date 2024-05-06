@@ -8,25 +8,22 @@ body {
   height: 2000px;
 }
 .navbar {
-  width: 45%;
+  width: 44%;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .menu {
-  border: 1px solid;
+  font-size: 0;
 }
 .menu a {
-  color: black;
-  font-size: 15px;
-  padding: 8px;
+  border: 1px solid black;
   text-decoration: none;
-  display: inline-block;
-  border-right: 1px solid;
-}
-.menu a:last-child {
-  border-right: none;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 10px;
+  color: black;
 }
 .container {
   margin-top: 100px;
