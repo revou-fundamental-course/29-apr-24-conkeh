@@ -7,7 +7,29 @@ body {
   font-family: arial;
   height: 2000px;
 }
+.navbar {
+  width: 45%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  border: 1px solid;
+}
+.menu a {
+  color: black;
+  font-size: 15px;
+  padding: 8px;
+  text-decoration: none;
+  display: inline-block;
+  border-right: 1px solid;
+}
+.menu a:last-child {
+  border-right: none;
+}
 .container {
+  margin-top: 100px;
 }
 .title {
   text-align: center;
@@ -151,6 +173,12 @@ button {
 @media (max-width: 600px) {
   body {
     height: 4000px;
+  }
+  .logo {
+    margin: auto;
+  }
+  .menu a {
+    display: none;
   }
   .main-box {
     grid-template-columns: 1fr;
