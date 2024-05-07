@@ -9,11 +9,12 @@ body {
   background-color: #f7eedf;
 }
 .navbar {
-  width: 50%;
-  margin: auto;
+  background-color: #ecdbbe;
   padding: 30px;
   display: flex;
   justify-content: space-between;
+  padding-left: 500px;
+  padding-right: 500px;
   align-items: center;
   text-decoration: NONE;
 }
@@ -23,6 +24,9 @@ body {
   font-weight: 900;
   font-size: 30px;
   color: black;
+}
+.logo span {
+  color: #e3a639;
 }
 .menu {
   font-size: 0;
@@ -37,6 +41,7 @@ body {
   padding: 10px;
   color: black;
 }
+
 .container {
   margin-top: 100px;
 }
@@ -199,8 +204,9 @@ button {
     padding: 20px;
   }
   .logo {
-    margin: auto;
+    font-size: 15px;
   }
+
   .menu a {
     display: none;
   }
