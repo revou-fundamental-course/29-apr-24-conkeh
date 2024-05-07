@@ -194,16 +194,17 @@ button {
     height: 4000px;
     background-color: #f7eedf;
   }
-  .navbar{
+  .navbar {
     width: 100%;
-    padding 20px
+    padding: 20px;
   }
   .logo {
+    margin: auto;
   }
   .menu a {
     display: none;
   }
-  .container{
+  .container {
     margin-top: 20px;
   }
   .main-box {
