@@ -6,7 +6,7 @@
 body {
   font-family: arial;
   height: 2000px;
-  background-color: #eccbaa;
+  background-color: #f7eedf;
 }
 .navbar {
   width: 50%;
@@ -19,21 +19,23 @@ body {
 }
 .logo {
   text-decoration: none;
+  font-family: righteous;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 30px;
+  color: black;
 }
 .menu {
   font-size: 0;
 }
 .menu a {
-  background-color: #c05f2c;
+  background-color: #e3a639;
   border: 1px solid black;
   border-radius: 5px;
   text-decoration: none;
   font-size: 12px;
   font-weight: 800;
   padding: 10px;
-  color: white;
+  color: black;
 }
 .container {
   margin-top: 100px;
@@ -93,8 +95,9 @@ body {
 .right-box {
   width: 90%;
   height: 600px;
-  background-color: antiquewhite;
+  background-color: #e3a639;
   border: 1px solid;
+  border-radius: 10px;
   padding: 40px;
   font-size: 18px;
 }
@@ -189,12 +192,19 @@ button {
 @media (max-width: 600px) {
   body {
     height: 4000px;
+    background-color: #f7eedf;
+  }
+  .navbar{
+    width: 100%;
+    padding 20px
   }
   .logo {
-    margin: auto;
   }
   .menu a {
     display: none;
+  }
+  .container{
+    margin-top: 20px;
   }
   .main-box {
     grid-template-columns: 1fr;
