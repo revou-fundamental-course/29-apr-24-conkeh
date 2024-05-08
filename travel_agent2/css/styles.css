@@ -110,7 +110,7 @@ body {
   display: flex;
 }
 .list-number {
-  width: 30px;
+  width: 40px;
   height: 30px;
   background-color: #83c9f4;
   border-radius: 50%;
@@ -122,7 +122,9 @@ body {
 .list-explanation {
   font-weight: 700;
 }
-
+.list-explanation span {
+  font-size: 13px;
+}
 .right-box {
   width: 90%;
   height: 600px;
