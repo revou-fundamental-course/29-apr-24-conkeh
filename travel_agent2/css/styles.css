@@ -226,7 +226,6 @@ body {
 @media (max-width: 600px) {
   body {
     height: 4000px;
-    background-color: #f7eedf;
   }
   .navbar {
     width: 100%;
