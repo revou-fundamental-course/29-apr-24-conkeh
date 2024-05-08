@@ -39,11 +39,9 @@
         <!-- LEFT BOX IMAGE -->
         <div class="left-box">
           <div class="slide-container">
-            <div class="slides">
-              <img src="images/1.jpg" />
-              <img src="images/2.jpg" />
-              <img src="images/3.jpg" />
-            </div>
+            <img class="slide" src="images/1.jpg" alt="" />
+            <img class="slide" src="images/2.jpg" alt="" />
+            <img class="slide" src="images/3.jpg" alt="" />
           </div>
           <div class="cust-comment">
             <p><i>"Liburan jadi menyenangkan bersama travel Agentku"</i></p>
@@ -75,25 +73,29 @@
         </div>
         <!-- RIGHT BOX FORM -->
         <div class="right-box">
-          <h2>Contact us</h2>
-          <p>Sales akan menghubungi anda 1 x 24 jam setelah data kami terima</p>
-          <div class="input-box">
-            <label for="">Your name :</label>
-            <input type="text" id="yourname" placeholder="full name" />
-          </div>
-          <div class="input-box">
-            <label for="">Email address :</label>
-            <input type="text" id="email" placeholder="example@mail.com" />
-          </div>
-          <div class="input-box">
-            <label for=""> What are you interest in? </label>
-            <select name="" id="interest">
-              <option value="">USA</option>
-              <option value="">ASIA</option>
-              <option value="">EUROPE</option>
-            </select>
-          </div>
-          <button>Submit</button>
+          <form class="item-form">
+            <h2>Contact us</h2>
+            <p>
+              Sales akan menghubungi anda 1 x 24 jam setelah data kami terima
+            </p>
+            <div class="input-box">
+              <label for="">Your name :</label>
+              <input type="text" id="yourname" placeholder="full name" />
+            </div>
+            <div class="input-box">
+              <label for="">Email address :</label>
+              <input type="text" id="email" placeholder="example@mail.com" />
+            </div>
+            <div class="input-box">
+              <label for=""> What are you interest in? </label>
+              <select name="" id="interest">
+                <option value="">USA</option>
+                <option value="">ASIA</option>
+                <option value="">EUROPE</option>
+              </select>
+            </div>
+            <button id="btn-submit">Submit</button>
+          </form>
         </div>
       </div>
     </div>
