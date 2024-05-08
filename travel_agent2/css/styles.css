@@ -69,6 +69,10 @@ body {
   height: 330px;
   overflow: hidden;
 }
+.slide-container .slide {
+  width: 100%;
+  height: 100%;
+}
 .cust-comment {
   width: 70%;
   text-align: left;
@@ -98,7 +102,9 @@ body {
   margin: auto;
   margin-top: 40px;
 }
-
+.offers h4 {
+  font-size: 50px;
+}
 .offer-list {
   margin-top: 30px;
   display: flex;
@@ -112,6 +118,9 @@ body {
   padding-top: 5px;
   padding-bottom: 10px;
   margin-right: 20px;
+}
+.list-explanation {
+  font-weight: 700;
 }
 
 .right-box {
@@ -219,7 +228,7 @@ body {
 }
 @media (max-width: 600px) {
   body {
-    height: 4000px;
+    height: 5000px;
   }
   .navbar {
     width: 100%;
@@ -241,11 +250,11 @@ body {
     width: 100%;
   }
   .slide-container {
-    width: 80%;
+    width: 90%;
     margin: auto;
   }
   .right-box {
-    width: 80%;
+    width: 90%;
     margin: auto;
   }
   .container-package {
