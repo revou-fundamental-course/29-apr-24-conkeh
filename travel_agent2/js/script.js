@@ -26,7 +26,7 @@ function validation() {
   } else if (email == "" || email == null) {
     alert("please type your email");
   } else {
-    alert("Thank You");
+    alert("Thank You, Our Sales will Contact You ASAP");
   }
 }
 document
