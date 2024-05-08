@@ -19,9 +19,12 @@ automaticSlide();
 //for validation  form
 function validation() {
   let username = document.getElementById("yourname").value;
-  console.log(username);
+  let email = document.getElementById("email").value;
+  //console.log(username)
   if (username == "" || username == null) {
     alert("please type your name");
+  } else if (email == "" || email == null) {
+    alert("please type your email");
   } else {
     alert("Thank You");
   }
