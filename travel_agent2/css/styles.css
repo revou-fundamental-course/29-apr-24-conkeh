@@ -45,7 +45,7 @@ body {
 }
 
 .container {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 .title {
   text-align: center;
@@ -110,14 +110,13 @@ body {
   display: flex;
 }
 .list-number {
-  width: 40px;
+  width: 50px;
   height: 30px;
   background-color: #83c9f4;
   border-radius: 50%;
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 10px;
   margin-right: 20px;
+  text-align: center;
+  padding-top: 5px;
 }
 .list-explanation {
   font-weight: 700;
@@ -129,7 +128,7 @@ body {
   width: 90%;
   height: 600px;
   background-color: #d9f0ff;
-  border: 1px solid;
+  border: 2px solid;
   border-radius: 10px;
   padding: 40px;
   font-size: 18px;
@@ -174,7 +173,7 @@ body {
 .container-package {
   width: 1000px;
   height: 480px;
-  border: 1px solid;
+  border: 2px solid;
   border-radius: 10px;
   margin: auto;
   margin-bottom: 30px;
