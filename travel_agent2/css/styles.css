@@ -182,6 +182,7 @@ body {
   justify-content: center;
   text-align: center;
   gap: 5px;
+  background-color: #83c9f4;
 }
 .fa-regular {
   width: 30px;
